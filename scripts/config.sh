@@ -145,7 +145,9 @@ function cli_tools() {
 		htop \
 		neofetch \
 		net-tools \
-		less
+		less \
+  		nmap \
+    		arp-scan \
 }
 
 function add_flatpak() {
@@ -179,7 +181,10 @@ function remove_packages()
 {
 	apt purge -y \
 		apport \
-		gnome-keyring
+		gnome-keyring \
+  		imagemagick-7-common \
+		imagemagick-7.q16 \
+		imagemagick
 	apt autoremove -y
 
 }
