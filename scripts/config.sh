@@ -147,7 +147,7 @@ function cli_tools() {
 		net-tools \
 		less \
   		nmap \
-    		arp-scan \
+    		arp-scan 
 }
 
 function add_flatpak() {
