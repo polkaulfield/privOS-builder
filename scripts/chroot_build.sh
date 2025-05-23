@@ -154,11 +154,8 @@ EOF
 	# install kernel
 	apt-get install -y --no-install-recommends $TARGET_KERNEL_PACKAGE
 
-	# graphic installer - ubiquity kde
-	apt install -y ubiquity \
-		ubiquity-casper \
-		ubiquity-frontend-gtk \
-		ubiquity-slideshow-kubuntu
+	# graphic installer - calamares
+	apt install -y calamares
 
 	# Call into config function
 	customize_image
