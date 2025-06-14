@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/live-session-tweaks.sh
+Hidden=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+Name=Tweaks for the live session
+Comment=Disables screen lock only in the live session and adds the installer icon
+

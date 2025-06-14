@@ -12,3 +12,6 @@ kwriteconfig5 --file powermanagementprofilesrc --group AC --key suspendThenHiber
 
 # Reapply power management config
 qdbus org.kde.Solid.PowerManagement /org/kde/Solid/PowerManagement reparseConfiguration
+
+# Copy desktop file for installer
+cp /etc/calamares/privos-calamares.desktop $HOME/Desktop/privos-calamares.desktop
