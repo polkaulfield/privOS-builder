@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/disable-kde-lock.sh
+Hidden=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+Name=Disable KDE Lock for Live Session
+Comment=Disables screen lock only in the live session
+
