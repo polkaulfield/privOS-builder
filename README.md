@@ -2,7 +2,7 @@
 
 ![Logo](https://raw.githubusercontent.com/polkaulfield/privOS-builder/refs/heads/24.04/images/banner.png)
 
-This is a project to create a privacy-first Ubuntu derivative as a learning experience by some 42-Barcelona students.
+This is a project to create a privacy-first Ubuntu derivative as a learning experience by a 42-Barcelona student.
 Now everything is an extremely experimental weekend project, but it will keep improving.
 
 ## Features:
@@ -18,6 +18,7 @@ Now everything is an extremely experimental weekend project, but it will keep im
 * [MAC Address randomization](https://wiki.archlinux.org/title/NetworkManager#Configuring_MAC_address_randomization)
 * [Base Mullvad DNS](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls#linux) with TLS. Blocks ads, malware and trackers system-wide
 * [Added IP related hardening tweaks from the Brace project](https://github.com/divestedcg/Brace/blob/master/brace/usr/lib/sysctl.d/60-restrict.conf)
+* Hardened permissions for all user folders set to 750.
 * Disabled CUPS and Avahi services. [They are known for being exploited a lot](https://gist.github.com/FlyingFathead/880238cb2ecb4f64d81a2c4e5600511a)
 
 ## Screenshot
