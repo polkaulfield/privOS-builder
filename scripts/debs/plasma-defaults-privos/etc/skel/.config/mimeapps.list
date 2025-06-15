@@ -1,0 +1,12 @@
+[Added Associations]
+inode/directory=org.kde.dolphin.desktop;
+x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
+x-scheme-handler/http=com.brave.Browser.desktop;
+x-scheme-handler/https=com.brave.Browser.desktop;
+
+[Default Applications]
+inode/directory=org.kde.dolphin.desktop;
+x-scheme-handler/geo=openstreetmap-geo-handler.desktop;
+x-scheme-handler/http=com.brave.Browser.desktop;
+x-scheme-handler/https=com.brave.Browser.desktop;
+text/html=brave-browser.desktop
